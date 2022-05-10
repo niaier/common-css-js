@@ -1,0 +1,12 @@
+{
+  "name": "common-css-js",
+  "version": "1.0.0",
+  "description": "common css",
+  "main": "dist/common-css-js.umd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "niaier",
+  "license": "MIT"
+}

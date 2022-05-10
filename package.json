@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "to-js": "vue-cli-service build --target lib --name common-css-js ./src/assets/js/common/css/index.js",
+    "to-css": "vue-cli-service build--target lib --name common-css src/assets/js/commonCss/common-css.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
