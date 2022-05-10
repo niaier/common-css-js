@@ -1,6 +1,6 @@
 <template>
 	<div class="about">
-		<div class="red box position-absolute top-50 ml-n1"></div>
+		<div class="red box position-absolute top-60 ml-n100">1222</div>
 		<div class="blue box float-none"></div>
 	</div>
 </template>

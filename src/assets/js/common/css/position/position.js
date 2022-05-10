@@ -19,7 +19,7 @@ position.forEach(item => {
 let offsetTemplate = ''
 let offsetTemplateN = ''
 offset.forEach(item => {
-  for (let index = 0; index <= 50; index++) {
+  for (let index = 0; index <= 100; index++) {
     offsetTemplate = `
     .${item}-${index} {
       ${item}:${index}px!important;

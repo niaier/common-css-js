@@ -36,6 +36,8 @@ import 'common-css-js'
 
 **size** 以1px增量控制间距属性:
 
+最大100
+
 - `0` - 通过设置为 `0` 来消除所有 `margin` 或 `padding`.
 - `1` - 设置 `margin` 或 `padding` 为 1px
 
@@ -43,6 +45,7 @@ import 'common-css-js'
 
 ```html
 <div class="ml-10"></div>
+<div class="pl-10"></div>
 ```
 
 
@@ -84,7 +87,7 @@ position-{mode}
  {direction}-{size}
 
 direction:方向
-size:偏移尺寸
+size:偏移尺寸 最大100
 
 示例
 

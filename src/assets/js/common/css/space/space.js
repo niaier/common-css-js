@@ -32,7 +32,7 @@ let nTemplate
 
 space.forEach((item) => {
   direction.forEach(itemD => {
-    for (let index = 0; index <= 50; index++) {
+    for (let index = 0; index <= 100; index++) {
       let top = itemD.direction.top ? `${item.space}-top:${index}px!important;` : ''
       let bottom = itemD.direction.bottom ? `${item.space}-bottom:${index}px!important;` : ''
       let left = itemD.direction.left ? `${item.space}-left:${index}px!important;` : ''
