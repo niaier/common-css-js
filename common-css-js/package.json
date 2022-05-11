@@ -1,12 +1,20 @@
 {
   "name": "common-css-js",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "common css",
   "main": "dist/common-css-js.umd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "common",
+    "css",
+    "js"
+  ],
   "author": "niaier",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niaier/common-css-js.git"
+  }
 }

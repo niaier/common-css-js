@@ -1,16 +1,11 @@
 <template>
 	<div class="about">
-		<div class="red box position-absolute top-60 ml-n100">1222</div>
-		<div class="blue box float-none"></div>
+		<div>ssss</div>
 	</div>
 </template>
 
 <script>
 
-import innerHTMLFloat from '@/assets/js/common/css/index';
-
-
-console.log(innerHTMLFloat);
 export default {
 	name: 'about',
 	components: {
