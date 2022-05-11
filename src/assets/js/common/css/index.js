@@ -15,4 +15,5 @@ const initCommonCss = function () {
   const body = document.querySelector('head')
   body.appendChild(commonCss)
 }
+initCommonCss()
 export default initCommonCss

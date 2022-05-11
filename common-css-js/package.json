@@ -1,6 +1,6 @@
 {
   "name": "common-css-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "common css",
   "main": "dist/common-css-js.umd.js",
   "scripts": {
