@@ -5,8 +5,7 @@ sizeNum.forEach(item => {
   template = `
   .fz-${item} {
     font-size:${item}px!important;
-  }
-  `
+  }`
   innerHTMLFontSize += template
 })
 

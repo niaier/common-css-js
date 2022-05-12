@@ -10,8 +10,7 @@ position.forEach(item => {
   positionTemplate = `
   .position-${item} {
     position:${item}!important;
-  }
-  `
+  }`
   innerHTMLPosition += positionTemplate
 })
 
@@ -23,13 +22,11 @@ offset.forEach(item => {
     offsetTemplate = `
     .${item}-${index} {
       ${item}:${index}px!important;
-    }
-    `
+    }`
     offsetTemplateN = `
     .${item}-n${index} {
       ${item}:-${index}px!important;
-    }
-    `
+    }`
     innerHTMLoffset += offsetTemplate + offsetTemplateN
   }
 })

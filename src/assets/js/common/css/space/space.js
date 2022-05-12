@@ -1,6 +1,6 @@
 
 let innerHTMLSpace = ''
-const space = [{ abbr: 'm', space: 'margin' }, { abbr: 'p', space: 'margin' }]
+const space = [{ abbr: 'm', space: 'margin' }, { abbr: 'p', space: 'padding' }]
 const direction = [{
   abbr: 'a',
   direction: { top: true, right: true, bottom: true, left: true }
@@ -44,8 +44,7 @@ space.forEach((item) => {
       ${bottom}
       ${left}
       ${right}
-    }
-    `
+    }`
       // 负向偏移
       let nTop = itemD.direction.top ? `${item.space}-top:-${index}px!important;` : ''
       let nBottom = itemD.direction.bottom ? `${item.space}-bottom:-${index}px!important;` : ''
@@ -58,8 +57,7 @@ space.forEach((item) => {
       ${nBottom}
       ${nLeft}
       ${nRight}
-    }
-    `
+    }`
 
       innerHTMLSpace += template + nTemplate
 

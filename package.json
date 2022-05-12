@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name common-css-js ./src/assets/js/common/css/index.js",
     "lint": "vue-cli-service lint",
     "to-js": "vue-cli-service build --target lib --name common-css-js ./src/assets/js/common/css/index.js",
     "to-css": "vue-cli-service build--target lib --name common-css src/assets/js/commonCss/common-css.js"

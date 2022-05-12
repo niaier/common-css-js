@@ -5,8 +5,7 @@ sizeNum.forEach(item => {
   template = `
   .fw-${item} {
     font-weight:${item}!important;
-  }
-  `
+  }`
   innerHTMLFontWeight += template
 })
 

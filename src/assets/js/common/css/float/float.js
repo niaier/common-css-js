@@ -6,8 +6,7 @@ position.forEach(item => {
   template = `
   .float-${item} {
     float:${item}!important;
-  }
-  `
+  }`
   innerHTMLFloat += template
 })
 
